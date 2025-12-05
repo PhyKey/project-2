@@ -7,4 +7,3 @@ reportlab
 python-dotenv
 beautifulsoup4
 pytest
-smtplib
