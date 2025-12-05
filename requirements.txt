@@ -4,6 +4,7 @@ numpy >= 1.23
 matplotlib >= 3.6
 openpyxl >= 3.1
 reportlab >= 3.6
-dotenv >= 1.0
+python-dotenv
 beautifulsoup4 >= 4.11
 pytest
+smtplib-client
