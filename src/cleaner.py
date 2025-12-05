@@ -2,8 +2,8 @@ import json
 import pandas as pd
 from pathlib import Path
 
-RAW_DIR = Path("src/data/raw")
-CLEAN_DIR = Path("src/data/clean")
+RAW_DIR = Path("data/raw")
+CLEAN_DIR = Path("data/clean")
 CLEAN_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_latest_raw_file():
@@ -47,4 +47,4 @@ if __name__ == "__main__":
     newest = load_latest_raw_file()
     df = clean_weather(newest)
     save_cleaned_data(df)
-    print(df.sample(10))
+    print(df.head())

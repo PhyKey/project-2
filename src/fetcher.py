@@ -5,7 +5,7 @@ import json
 import sys
 import time
 
-DATA_DIR = Path("src/data/raw")
+DATA_DIR = Path("data/raw")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 DEFAULT_LAT = 34.69 # Osaka

@@ -5,7 +5,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from datetime import datetime
 
-CLEAN_DIR = Path("src/data/clean")
+CLEAN_DIR = Path("data/clean")
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(exist_ok=True)
 

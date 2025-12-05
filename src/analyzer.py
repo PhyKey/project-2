@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-CLEAN_DIR = Path("src/data/clean")
+CLEAN_DIR = Path("data/clean")
 CLEAN_DIR.mkdir(parents=True, exist_ok=True)
 
 def analyze():
