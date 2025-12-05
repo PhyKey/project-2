@@ -1,10 +1,10 @@
-requests >= 2.28
-pandas >= 1.5
-numpy >= 1.23
-matplotlib >= 3.6
-openpyxl >= 3.1
-reportlab >= 3.6
+requests
+pandas
+numpy
+matplotlib
+openpyxl
+reportlab
 python-dotenv
-beautifulsoup4 >= 4.11
+beautifulsoup4
 pytest
 smtplib-client
